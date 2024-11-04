@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(22, 72, 180, 0.377);
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1rem;
+  background-color: #765dcf;
+  color: #ffffff;
+}
+
+h1 {
+  font-size: 60px;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem;
+}
+main p {
+  width: 50%;
+}
+img {
+  max-width: 50%;
+  max-height: 500px;
+  box-shadow: 10px 10px 20px #000000;
+}
+.buttons {
+  display: flex;
+  padding: 1rem;
+}
+
+button {
+  display: flex;
+  background-color: #3a50cf8e;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  margin: 0.5rem;
+}
+
+button:hover {
+  background-color: #6042cc;
+}
+
+/* Javascript Changes */
+
+.amsterdam {
+  background-color: #ca494fc2;
+  header {
+    background-color: #c41414b6;
+  }
+  button {
+    background-color: #91236c;
+  }
+  button:hover {
+    background-color: rgba(138, 20, 102, 0.733);
+  }
+}
+
+.bath {
+  background-color: #25189ea4;
+  header {
+    background-color: #3c3b8a69;
+  }
+  button {
+    background-color: #120231;
+  }
+  button:hover {
+    background-color: rgb(39, 31, 109);
+  }
+}
+.london {
+  background-color: #1c6785a4;
+  header {
+    background-color: #0a088169;
+  }
+  button {
+    background-color: #014e61;
+  }
+  button:hover {
+    background-color: rgb(6, 41, 73);
+  }
+}
+.antwerp {
+  background-color: grey;
+  header {
+    background-color: darkgrey;
+  }
+  button {
+    background-color: #241c1c;
+  }
+  button:hover {
+    background-color: rgb(46, 43, 43);
+  }
+}
+
+.brussels {
+  background-color: #e4a56ac2;
+  header {
+    background-color: #cc7a00c4;
+  }
+  button {
+    background-color: #964604;
+  }
+  button:hover {
+    background-color: rgb(172, 120, 52);
+  }
+}
+.paris {
+  background-color: #1b5da8c2;
+  header {
+    background-color: #2d10afc4;
+  }
+  button {
+    background-color: #11013f;
+  }
+  button:hover {
+    background-color: rgb(41, 32, 94);
+  }
+}
+
+.bruges {
+  background-color: #acc567c2;
+  header {
+    background-color: #93c018b6;
+    color: black;
+  }
+  button {
+    background-color: #03811ec4;
+  }
+  button:hover {
+    background-color: rgb(40, 99, 35);
+  }
+}
+.ghent {
+  background-color: #b13971c2;
+  header {
+    background-color: #ac0495a9;
+  }
+  button {
+    background-color: #6b056b;
+  }
+  button:hover {
+    background-color: rgb(170, 53, 118);
+  }
+}
+
+.ireland {
+  background-color: #4ca844c2;
+  header {
+    background-color: #04751db6;
+  }
+  button {
+    background-color: #0a2901;
+  }
+  button:hover {
+    background-color: rgb(63, 156, 105);
+  }
+}
+@media screen and (max-width: 800px) {
+  header {
+    /* padding: 0.2rem; */
+  }
+  header p {
+    margin: 0;
+    font-size: 15px;
+    text-align: center;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  .buttons {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+  }
+  img {
+    /* min-width: 100%; */
+    min-height: fit-content;
+    min-width: fit-content;
+  }
+  #description {
+    text-align: center;
+  }
+  main p {
+    width: 90%;
+    text-align: left;
+  }
+}
