@@ -162,7 +162,7 @@ button:hover {
   }
 }
 
-.ireland {
+.kilkenny {
   background-color: #4ca844c2;
   header {
     background-color: #04751db6;
@@ -175,9 +175,6 @@ button:hover {
   }
 }
 @media screen and (max-width: 800px) {
-  header {
-    /* padding: 0.2rem; */
-  }
   header p {
     margin: 0;
     font-size: 15px;
