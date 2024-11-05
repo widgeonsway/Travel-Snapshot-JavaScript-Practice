@@ -82,7 +82,7 @@ cityDestinations.forEach(function (destination) {
     .getElementById(destination.name)
     .addEventListener("click", destinationFunction);
 });
-//remember to ask if 71-18 and 88-99 can be done the same
+//remember to ask if 71-78 and 88-99 can be done the same
 const btnRandom = document.querySelector("#btn-random-destination");
 
 btnRandom.addEventListener("click", function () {
@@ -95,6 +95,5 @@ btnRandom.addEventListener("click", function () {
   document.getElementById("image").alt = randomMatch.alt;
 
   document.body.classList.remove(...document.body.classList);
-
   document.body.classList.add(randomMatch.name);
 });
